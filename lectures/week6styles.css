@@ -1,0 +1,7 @@
+body{background-color: blueviolet;}
+
+p {color:crimson}
+.boldred{color:red;
+font-weight: bold;}
+
+/* no html allowed in .css documents*/  

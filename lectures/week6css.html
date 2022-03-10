@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Embed</title>
+    <style>
+        h1 {color:darkorange;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        body {background-color:aliceblue;
+        font-size: 1.1em; /* 1.1em means 10% larger than default browser size, use % or em as units */
+    } 
+    h1,h2 {color:blue;} /* Group selector slects more than 1 thing, overwrites previous coloring */ 
+    p {font-weight: bolder;}
+    p a{color:deeppink;}/* p a means select all a tags inside p tags */
+    .amazonlink {color:blueviolet} /* period means, looking to match a class value can use class values more than once where evry class value is ".amazonlink"*/
+    </style>
+</head>
+<body>
+    <h1>Embedded Style Sheets Test</h1>
+    <h2>Group Selectors</h2>
+    <a href="http://Amazon.com" class="amazonlink">Amazon</a>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <a href="http://google.com">Google</a> Alias incidunt asperiores nisi a reiciendis, at iste, magni nihil totam ad iure cum error repellat. Illo eligendi iure accusamus ut soluta.</p> 
+</body>
+</html>
