@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Forms</title>
+    </head>
+    <body>
+        <!--action says what webpage will proces fomr, post says how data will be sent-->
+        <form action='../lab03/contact.html' method="post"><!--action can take you to other websites-->
+            <!--Label tell user what to enter for links the label to the from element value in for must match value for input id-->
+            <label for='fullname'> Full Name</label><br>
+            <input type=''text id='fullname' name="fullname"><br>
+
+            <label for='complaint' Complaints></label><br>
+            <textarea name="complaint" id="complaint"></textarea>
+            <!--radio buttons are linked wiht the same name and id values must be unique-->
+            <label for='important1'>important</label>
+            <input type="radio" name='important' id="important1">
+            <label for='important2'> not important</label> 
+            <input type="radio" name="'important"id='important2'>
+
+            <p>What contact methods work</p>
+            <label for="method1"> phone</label>
+            <input type="checkbox"id='method1' name="method1">
+            <label for="method2"> email</label>
+            <input type="checkbox"id='method2' name="method2"><br>
+
+            <label for="time"> What time do you want to be contacted?</label>
+            <select name="time" id="time">
+                <option value = 'morning'>morning</option>
+                <option value="afternoon">afternoon</option>
+                <option value ='evening'>evening</option>
+            </select>
+
+            <input type="submit"value='send complaint'><br>
+            <!--value='' is what shows up on button-->
+        </form>
+        
+    </body>
+
+</html>

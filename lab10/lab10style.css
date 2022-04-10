@@ -1,0 +1,14 @@
+body{background-color: #0B486B;} /*background*/
+nav a:hover{background-color:#A8DBA8}
+nav{padding: 10px;}
+nav{margin-bottom: 30px;}
+nav{background-color:#79BD9A ;}
+nav a {color:#CFF09E}
+h1 {text-align: center;}
+caption {text-align: center;}
+body {text-align: center;}
+table {text-align: center;}
+tr {text-align: center;}
+
+@media only screen and (max-width: 600px) {body{background-color: aliceblue;}.span {display: none;}
+}/*{body {background-color: orange}no semicolon, different styles for different sizes of screen resolution*/
