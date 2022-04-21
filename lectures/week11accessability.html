@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>/*
+            Skip to content
+            1. html link that says skip to content
+            2. need an anchor
+            3. style skip to contnet
+            4. hide it and show it(positioning)
+            */
+            #skip { /* # sign means looking for tage with id of skip */
+                position: absolute; left: -999px;
+            background-color: orange;
+            padding: 5px;}
+                #skip:focus {left: 10px;}/*focus means it selects when tabbed*/
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="#content" id="skip">Skip to Content</a><!--Need id attribute for anchor link(look at h3 article)-->
+        <a href="http://twitter.com" tabindex="4"></a> Twitter</a>
+        <a href="index.html" tabindex="1">Home </a>
+        <a href="Skills.html" tabindex="2"> Skills</a>
+        <a href="Contact.html" tabindex="3"> Contact</a>
+
+    </nav>
+    <!--heading tags are about hierarchy, not 1st, second, third, they're subheadings-->
+    <h1>Accessibility</h1><!--Only one per page-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia enim obcaecati facilis sint corrupti mollitia, pariatur voluptate nam illum cupiditate dignissimos excepturi eveniet, magnam assumenda labore vero fugit quod.</p>
+    <h2>Tab Order</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum cupiditate explicabo voluptatum nesciunt eligendi hic atque ullam quisquam impedit similique voluptas asperiores sed perferendis, pariatur repellat dolores laudantium dicta amet?</p>
+    <h2>Semantic Tags</h2>
+        <h3>Aside</h3>
+        <h3 id="content">Article</h3>
+
+    
+</body>
+</html>
